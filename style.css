@@ -1,1 +1,152 @@
+.bignumber{
+  font-size: 7.5rem;
+  text-align: center;
+    background: linear-gradient(0.25turn, #025C7D, #EA252A, #F3A240);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+@media screen and (max-width: 640px) {
+  .bignumber{
+    font-size:3.75rem;
+  }
+
+  .background-width--full-bleed{
+    background-image: url("https://static1.squarespace.com/static/5ecfd6af1243be1a02574f6b/t/5ed94aff13ecb34b7f47959f/1591298815440/mobilegradientbackground.png") !important; 
+  }
+}
+
+.sqs-announcement-bar{
+  background: linear-gradient(0.25turn, #025C7D, #EA252A, #F3A240);
+}
+
+.sqs-announcement-bar-text p{
+ font-size: 1.1rem !important;
+  color: white !important; 
+  padding: 10px;
+}
+
+h4{
+  color:#025C7D;
+}
+
+h5{
+  color:#EA252A;
+}
+
+h6{
+  color:#F3A240;
+}
+
+.blue{
+  color: #025C7D; 
+}
+.red{
+  color: #EA252A;
+}
+.yellow{
+  color:#F3A240;
+}
+.black{
+  color:black;
+}
+.whtie{
+  color:white;
+}
+big{
+  font-weight: 500;
+}
+.contactBox{
+  font-size: 1.1rem;
+}
+.emaillink{
+  color:white;
+  font-weight: 600;
+}
+
+.emaillink:hover{
+  color:#F3A240;
+  font-weight: 600;
+}
+
+.bigwords{
+    font-size: 5rem;
+  text-align: center;
+  background: linear-gradient(0.25turn, #025C7D, #EA252A, #F3A240);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#amount{
+  margin-top: -1rem;
+  margin-bottom: -2rem;
+  padding: 15px !important;
+}
+
+#button1{
+  color: white;
+  background-color: #EA252A;
+  transition:all 0.3s ease;
+}
+
+#button1:hover{
+  color: white;
+  background-color: #025C7D;
+  opacity: 1;
+  transition:all 0.3s ease;
+}
+
+#button2{
+  color: white;
+  background-color: #EA252A;
+  transition:all 0.3s ease;
+}
+
+#button2:hover{
+  color: #025C7D;
+  background-color: white;
+  opacity: 1;
+  transition:all 0.3s ease;
+}
+
+.sqs-donate-button{
+    color: white !important;
+  background-color: #EA252A !important;
+  transition:all 0.3s ease;
+}
+.sqs-donate-button:hover{
+  color: white !important;
+  background-color: #025C7D !important;
+  opacity: 1 !important;
+  transition:all 0.3s ease !important;
+}
+
+.header-title-logo{
+  text-align: center !important;
+}
+
+.mailacheck{
+  background-color:#025C7D;
+  padding: 2rem;
+  color: white;
+  font-size:1rem;
+  font-family:futura;
+  -mox-hyphens:none;
+}
+.emaillist{
+    background-color:#025C7D;
+  padding: 2rem;
+  color: white;
+  font-size:1rem;
+  -mox-hyphens:none;
+}
+@media screen and (max-width: 640px) {
+  .mailacheck{
+    font-size: .85rem;
+  }
+  .emaillist{
+    font-size: .85rem;
+  }
+}
+.gallery-reel-item-src{
+  margin: 5px !important;
+}
